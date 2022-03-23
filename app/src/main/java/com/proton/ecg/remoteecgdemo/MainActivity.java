@@ -12,7 +12,7 @@ import com.proton.view.EcgRealTimeView;
 import com.wms.ble.callback.OnConnectListener;
 
 public class MainActivity extends AppCompatActivity {
-    private String patchMac = "CA:2F:B8:EF:BF:BE";
+    private String patchMac = "F5:26:4A:66:10:66";
     EcgRealTimeView realTimeView;
 
     @Override
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void receiveRemoteData(byte[] data) {
                 super.receiveRemoteData(data);
-                RemoteManager.getInstance().sendEcgMsg(data, "421", "userName", 1, 22);
+                RemoteManager.getInstance().sendEcgMsg(data, "啊啊啊啊啊啊啊啊啊", 1, 22);
             }
         });
         EcgPatchManager.getInstance(patchMac).connectEcgPatch(new OnConnectListener() {

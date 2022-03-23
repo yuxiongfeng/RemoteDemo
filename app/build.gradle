@@ -37,5 +37,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.proton:protonecg:1.2.1'
     implementation 'com.proton.ecg.patch:patchble:V1.0.6-alpha09'
-    implementation 'com.proton.ecg.remote:remoteEcg:V1.0.1-alpha05'
+    implementation 'com.proton.ecg.remote:remoteEcg:V1.0.1-alpha08'
 }
