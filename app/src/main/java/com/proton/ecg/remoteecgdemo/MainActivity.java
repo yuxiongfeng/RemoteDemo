@@ -12,7 +12,7 @@ import com.proton.view.EcgRealTimeView;
 import com.wms.ble.callback.OnConnectListener;
 
 public class MainActivity extends AppCompatActivity {
-    private String patchMac = "F5:26:4A:66:10:66";
+    private String patchMac = "E5:AB:62:D2:9E:98";
     EcgRealTimeView realTimeView;
 
     @Override
